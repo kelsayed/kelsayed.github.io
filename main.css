@@ -1,0 +1,200 @@
+body {
+  font-family: sans-serif,Palatino, 'Palatino Linotype';
+  background-color:#DCDCDC;
+}
+
+.verticalLine {
+    border-right: thick solid #ffcc00;
+}
+
+p{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#emptyPage{
+	min-height: 665px;
+	}
+
+header {
+  padding: 10px 0;
+}
+
+main{background-color:white;
+min-height:1024pt;
+}
+
+main {
+  padding-left: 30px;
+  font-size:15px;
+  color: darkblue;
+}
+
+main a:link { text-decoration:underline; color: black;}
+main a:visited { text-decoration:none; color: magenta;}
+main a:hover { text-decoration:none; color: green;}
+main a:active { text-decoration:none; color: red;}
+
+main ul li {margin: 0 0 10px 0;}
+main ul ul li {margin: 0 0 5px 0;}
+main ul ul {padding-bottom:10px;}
+main ul ul ul {padding-bottom:0px;}
+
+main ol li {margin: 0 0 10px 0;}
+main ol ol li {margin: 0 0 5px 0;}
+main ol ol {padding-bottom:10px;}
+main ol ol ol {padding-bottom:0px;}
+
+main h2 {
+	font-size:24px;
+	}
+
+
+header .row h1 a:link { text-decoration:none; color: black; font-style: bold; font-size: 32px;}
+header .row h1 a:visited { text-decoration:none; color: black; font-style: bold; font-size: 32px;}
+header .row h1 a:hover { text-decoration:none; color: black; font-style: bold; font-size: 32px;}
+header .row h1 a:active { text-decoration:none; color: black; font-style: bold; font-size: 32px;}
+
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222222;
+	font-weight: bold;
+}
+
+ul.topnav li {
+	float: left;
+	border-right:1px solid #bbb;
+}
+
+ul.topnav li a {
+    display: block;
+    color: #ffcc00;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #222222; color: #ffcc00}
+ul.topnav li a.active {background-color: #c0a878; color: white}
+
+@media screen and (max-width: 1024px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+}
+
+
+
+/*Padding above and below the achievement list.*/
+.achievList ul {
+	padding-top:5px;
+	padding-bottom:5px;
+    list-style-image: url('images/award.png');
+}
+
+/*Margin between items in the achievement list*/
+.achievList li {
+	margin: 0 0 3px 0;
+}
+
+
+/*p {
+  max-width: 100%;
+  min-width: 500px;
+}
+*/
+
+
+
+
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  margin: 8px;
+}
+
+.gallery-item .thumbnail {
+  border: 5px solid #fff;
+}
+
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+
+
+#shortBio  {
+	margin: 5px 0 0 0;
+}
+
+
+#recentNews ul {
+    padding: 5px;
+	margin: 5px 0 10px 0;
+}
+
+#recentNews ul li{
+	margin: 0 0 10px 0;
+}
+
+#sectionTitle {
+  font-weight:bold;
+  margin:0;
+  padding:10px 0 2px 15px;
+}
+
+#personalInfo {
+padding:10px 0 2px 15px;
+}
+
+#lvl1{
+	margin-left:10px;
+	font-weight:bold;
+}
+
+#lvl1-para{
+	margin-left:10px;
+}
+
+#lvl2{
+	margin-left:15px;
+	font-weight:bold;
+	}
+
+#lvl3{
+	margin-left:20px;
+	}
+
+#uLogo{
+	margin-left:25px;
+	margin-top:20px;
+	}
